@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 //import components
 import Hero from "./components/Hero";
-import Headers from "./components/Headers";
+import Headers from "./components/Header";
 const App = () => {
   //aos initialization
   useEffect(() => {
