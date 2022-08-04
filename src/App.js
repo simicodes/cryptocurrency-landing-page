@@ -6,6 +6,7 @@ import "aos/dist/aos.css";
 
 //import components
 import Hero from "./components/Hero";
+import Header from "./components/Header";
 const App = () => {
   //aos initialization
   useEffect(() => {
@@ -17,6 +18,7 @@ const App = () => {
 
   return (
     <div clasName="overflow-hidden">
+      <Header />
       <Hero />
     </div>
   );
